@@ -2,21 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c97b103-b4e8-4102-aa15-2fcc05d4954d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/C/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/D/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/E/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC151/F/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/C/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/D/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/E/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dowango6th/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC152/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC156/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC166/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC167/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ABC/ABC170/F/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/A/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/B/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/C/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/D/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/E/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC044/F/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/META-INF/java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/company/MitsuiSumitomo2019/E/MyStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/company/MitsuiSumitomo2019/E/MyStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/com/company/AGC037/A/AGC037A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/com/company/AGC037/A/FastScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AGC037/A/AGC037A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AGC/AGC037/A/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +61,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OpKsmHHvNeowewayjl088jC8nE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/ABC" />
@@ -58,17 +88,18 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/company/ABC" />
+      <recent name="$PROJECT_DIR$/src/com/company/AGC" />
       <recent name="$PROJECT_DIR$/src/com/company" />
       <recent name="$PROJECT_DIR$/src/com/company/template" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC151.A.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC170.C.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ABC.ABC151.A.*" />
+          <option name="PATTERN" value="com.company.ABC.ABC170.C.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC151.C.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC170.A.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ABC.ABC151.C.*" />
+          <option name="PATTERN" value="com.company.ABC.ABC170.A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC151.D.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC170.B.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ABC.ABC151.D.*" />
+          <option name="PATTERN" value="com.company.ABC.ABC170.B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Dowango6th.A.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC167.D.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Dowango6th.A.*" />
+          <option name="PATTERN" value="com.company.ABC.ABC167.D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC151.B.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ABC.ABC167.C.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ABC.ABC151.B.*" />
+          <option name="PATTERN" value="com.company.ABC.ABC167.C.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (6)" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (6)" />
       </list>
     </recent_temporary>
   </component>
@@ -190,50 +221,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578835545798">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1592317472046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578835545798" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1578830774375" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578835545796">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592317472046" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1592136917346" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1589118630068" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1592317472045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578835545796" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1578830774372" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578835545795">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592317472045" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1592136917345" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1589118630067" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1592317472044">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578835545795" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1578830774369" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578835545797">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592317472044" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1592136917344" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1589118630067" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1592317472045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578835545797" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1578830774373" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578831199758">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592317472045" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1592136917345" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1589118630068" />
+    <state x="413" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1592135794992">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578831199758" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1578831199756">
+    <state x="413" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592135794992" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1589112269277">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578831199756" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1578831199755">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578831199755" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1578831199757">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578831199757" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1578733483841">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578733483841" />
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1578824621072">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1578824621072" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589112269277" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
