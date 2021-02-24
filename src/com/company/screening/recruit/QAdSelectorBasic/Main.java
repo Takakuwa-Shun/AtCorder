@@ -4,12 +4,13 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Path segmentsPath = Paths.get("/Users/takakuwashun/app/exam_4e6f3fb00/Q-AdSelector-Basic/data/segments.csv");
-        Path summaryPath = Paths.get("/Users/takakuwashun/app/exam_4e6f3fb00/Q-AdSelector-Basic/data/summary.csv");
+        Path segmentsPath = Paths.get("/Users/takakuwa.s/takakuwa-app/exam_4e6f3fb00/Q-AdSelector-Basic/data/segments.csv");
+        Path summaryPath = Paths.get("/Users/takakuwa.s/takakuwa-app/exam_4e6f3fb00/Q-AdSelector-Basic/data/summary.csv");
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
         int M = scanner.nextInt();
@@ -33,16 +34,18 @@ public class Main {
 }
 
 class Solution {
-    private final int N;
-    private final int M;
+    private static final double EPSILON = 0.2;
+    private final int n;
+    private final int m;
     private final int[] userIdToSegmentMatrix = new int[1000];
-    private final Summary[][] summaryMatrix = new Summary[1000][10];
-    private int x;
-    private int y;
+    private final Summary[][] summaryMatrix = new Summary[10][10];
+    private int segmentIdx;
+    private int adIdx;
+    private final Random rnd = new Random();
 
     public Solution(int n, int m, Path segmentsPath, Path summaryPath) throws IOException {
-        this.N = n;
-        this.M = m;
+        this.n = n;
+        this.m = m;
         Files.lines(segmentsPath)
                 .map(line -> line.split(","))
                 .forEach(arr -> {
@@ -55,47 +58,76 @@ class Solution {
                 .forEach(arr -> {
                     int userId = Integer.parseInt(arr[0]);
                     int adId = Integer.parseInt(arr[1]);
-                    Summary summary = new Summary(Integer.parseInt(arr[2]), Integer.parseInt(arr[3]));
-                    this.summaryMatrix[userId - 1][adId - 1] = summary;
+                    int displayCnt = Integer.parseInt(arr[2]);
+                    int clickCnt = Integer.parseInt(arr[3]);
+                    int segmentId = this.userIdToSegmentMatrix[userId - 1];
+                    Summary summary = this.summaryMatrix[segmentId - 1][adId - 1];
+                    if (summary == null) {
+                        this.summaryMatrix[segmentId - 1][adId - 1] = new Summary(displayCnt, clickCnt);
+                    } else {
+                        summary.addClickAndDisplayCnt(displayCnt, clickCnt);
+                        summary.calcProbability();
+                    }
                 });
-        this.x = 0;
-        this.y = 0;
+        this.segmentIdx = -1;
+        this.adIdx = -1;
     }
 
     int handleA(int x) {
-        this.x = x;
-        this.y = 1;
-        return this.y;
+        this.segmentIdx = this.userIdToSegmentMatrix[x] - 1;
+        if (rnd.nextDouble() > EPSILON) {
+            Summary[] summaries = this.summaryMatrix[this.segmentIdx];
+            double probability = 0;
+            for (int i = 0; i < m; i++) {
+                if (summaries[i].getProbability() > probability) {
+                    probability = summaries[i].getProbability();
+                    this.adIdx = i;
+                }
+            }
+        } else {
+            this.adIdx = rnd.nextInt(m);
+        }
+        return this.adIdx + 1;
     }
 
     public void handleC(boolean clicked) {
-        Summary summary = this.summaryMatrix[this.x - 1][this.y - 1];
-        if (summary == null) {
-            return;
-        }
-        summary.incrementDisplayCnt();
-        if (clicked) {
-            summary.incrementClickCnt();;
-        }
-        this.x = 0;
-        this.y = 0;
+        Summary summary = this.summaryMatrix[this.segmentIdx][this.adIdx];
+        summary.incrementClickAndDisplayCnt(clicked);
+        summary.calcProbability();
+        this.segmentIdx = -1;
+        this.adIdx = -1;
     }
 }
 
 class Summary {
     private int displayCnt;
     private int clickCnt;
+    private double probability;
 
     public Summary(int displayCnt, int clickCnt) {
         this.displayCnt = displayCnt;
         this.clickCnt = clickCnt;
+        this.calcProbability();
     }
 
-    public void incrementDisplayCnt() {
+    public double getProbability() {
+        return probability;
+    }
+
+    public double calcProbability() {
+        this.probability = (double)this.clickCnt / (double)this.displayCnt;
+        return this.probability;
+    }
+
+    public void incrementClickAndDisplayCnt(boolean clicked) {
         this.displayCnt++;
+        if (clicked) {
+            this.clickCnt++;
+        }
     }
 
-    public void incrementClickCnt() {
-        this.clickCnt++;
+    public void addClickAndDisplayCnt(int displayCnt, int clickCnt) {
+        this.displayCnt += displayCnt;
+        this.clickCnt += clickCnt;
     }
 }
