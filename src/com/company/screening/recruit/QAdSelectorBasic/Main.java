@@ -37,7 +37,7 @@ class Solution {
     private static final double EPSILON = 0.2;
     private final int n;
     private final int m;
-    private final int[] userIdToSegmentMatrix = new int[1000];
+    private final int[] userIdxToSegmentIdxMatrix = new int[1000];
     private final Summary[][] summaryMatrix = new Summary[10][10];
     private int segmentIdx;
     private int adIdx;
@@ -49,21 +49,21 @@ class Solution {
         Files.lines(segmentsPath)
                 .map(line -> line.split(","))
                 .forEach(arr -> {
-                    int userId = Integer.parseInt(arr[0]);
-                    int segment = Integer.parseInt(arr[1]);
-                    this.userIdToSegmentMatrix[userId - 1] = segment;
+                    int userIdx = Integer.parseInt(arr[0]) - 1;
+                    int segmentIdx = Integer.parseInt(arr[1]) - 1;
+                    this.userIdxToSegmentIdxMatrix[userIdx] = segmentIdx;
                 });
         Files.lines(summaryPath)
                 .map(line -> line.split(","))
                 .forEach(arr -> {
-                    int userId = Integer.parseInt(arr[0]);
-                    int adId = Integer.parseInt(arr[1]);
+                    int userIdx = Integer.parseInt(arr[0]) - 1;
+                    int adIdx = Integer.parseInt(arr[1]) - 1;
                     int displayCnt = Integer.parseInt(arr[2]);
                     int clickCnt = Integer.parseInt(arr[3]);
-                    int segmentId = this.userIdToSegmentMatrix[userId - 1];
-                    Summary summary = this.summaryMatrix[segmentId - 1][adId - 1];
+                    int segmentIdx = this.userIdxToSegmentIdxMatrix[userIdx];
+                    Summary summary = this.summaryMatrix[segmentIdx][adIdx];
                     if (summary == null) {
-                        this.summaryMatrix[segmentId - 1][adId - 1] = new Summary(displayCnt, clickCnt);
+                        this.summaryMatrix[segmentIdx][adIdx] = new Summary(displayCnt, clickCnt);
                     } else {
                         summary.addClickAndDisplayCnt(displayCnt, clickCnt);
                         summary.calcProbability();
@@ -74,17 +74,21 @@ class Solution {
     }
 
     int handleA(int x) {
-        this.segmentIdx = this.userIdToSegmentMatrix[x] - 1;
+        this.segmentIdx = this.userIdxToSegmentIdxMatrix[x - 1];
         if (rnd.nextDouble() > EPSILON) {
             Summary[] summaries = this.summaryMatrix[this.segmentIdx];
             double probability = 0;
             for (int i = 0; i < m; i++) {
+                if (summaries[i] == null) {
+                    continue;
+                }
                 if (summaries[i].getProbability() > probability) {
                     probability = summaries[i].getProbability();
                     this.adIdx = i;
                 }
             }
-        } else {
+        }
+        if (this.adIdx == -1) {
             this.adIdx = rnd.nextInt(m);
         }
         return this.adIdx + 1;
@@ -92,8 +96,13 @@ class Solution {
 
     public void handleC(boolean clicked) {
         Summary summary = this.summaryMatrix[this.segmentIdx][this.adIdx];
-        summary.incrementClickAndDisplayCnt(clicked);
-        summary.calcProbability();
+        if (summary == null) {
+            int clickCnt = clicked ? 1: 0;
+            this.summaryMatrix[this.segmentIdx][this.adIdx] = new Summary(1, clickCnt);
+        } else {
+            summary.incrementClickAndDisplayCnt(clicked);
+            summary.calcProbability();
+        }
         this.segmentIdx = -1;
         this.adIdx = -1;
     }
@@ -115,7 +124,11 @@ class Summary {
     }
 
     public double calcProbability() {
-        this.probability = (double)this.clickCnt / (double)this.displayCnt;
+        if (this.displayCnt > 0) {
+            this.probability = (double)this.clickCnt / (double)this.displayCnt;
+        } else {
+            this.probability = 0;
+        }
         return this.probability;
     }
 

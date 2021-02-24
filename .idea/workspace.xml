@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c97b103-b4e8-4102-aa15-2fcc05d4954d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Summary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/com/company/screening/recruit/QAdSelectorBasic/Summary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/screening/recruit/QAdSelectorBasic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/screening/recruit/QAdSelectorBasic/Main.java" afterDir="false" />
@@ -155,7 +154,8 @@
       <workItem from="1564669317418" duration="82553000" />
       <workItem from="1567234151530" duration="43000" />
       <workItem from="1567234677273" duration="9000" />
-      <workItem from="1614130117472" duration="2912000" />
+      <workItem from="1614130117472" duration="3110000" />
+      <workItem from="1614147979342" duration="1677000" />
     </task>
     <servers />
   </component>
@@ -167,6 +167,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="581" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.960@0.0.1536.960" timestamp="1614131905325" />
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom" timestamp="1614148440202">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1614148440202" />
+    <state width="1494" height="265" key="GridCell.Tab.0.center" timestamp="1614148440200">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1614148440200" />
+    <state width="1494" height="265" key="GridCell.Tab.0.left" timestamp="1614148440200">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1614148440200" />
+    <state width="1494" height="265" key="GridCell.Tab.0.right" timestamp="1614148440201">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="265" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1614148440201" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
